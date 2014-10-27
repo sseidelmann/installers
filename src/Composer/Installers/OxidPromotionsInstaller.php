@@ -4,6 +4,6 @@ namespace Composer\Installers;
 class OxidPromotionsInstaller extends BaseInstaller
 {
     protected $locations = array(
-        'promotion-bundle' => 'src/Bundle/{$name}/',
+        'bundle' => 'src/Bundle/{$name}/',
     );
 }
