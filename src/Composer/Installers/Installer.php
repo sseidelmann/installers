@@ -33,6 +33,7 @@ class Installer extends LibraryInstaller
         'mediawiki'    => 'MediaWikiInstaller',
         'modulework'   => 'MODULEWorkInstaller',
         'oxid'         => 'OxidInstaller',
+        'promotion'    => 'OxidPromotionsInstaller',
         'phpbb'        => 'PhpBBInstaller',
         'ppi'          => 'PPIInstaller',
         'silverstripe' => 'SilverStripeInstaller',
