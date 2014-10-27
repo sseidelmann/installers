@@ -4,6 +4,7 @@ namespace Composer\Installers;
 class OxidInstaller extends BaseInstaller
 {
     protected $locations = array(
-        'module'    => 'modules/{$name}/',
+        'module' => 'modules/{$name}/',
+        'bundle' => 'src/Bundle/{$name}/',
     );
 }
